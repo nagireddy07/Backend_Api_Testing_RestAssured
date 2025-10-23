@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 import io.restassured.http.ContentType;
-
 import static io.restassured.RestAssured.*;
 
 public class Transaction {
@@ -41,13 +40,12 @@ public class Transaction {
                                             + "\""+PAYEE_PSP_VAR+"\",\"Payee_Name\":\"Payee\",\"Bank_Account\":\"ICICI\",\"Account_Type\":\"Savings\",\"IFSC\":\"ICIC01\",\"Mobile_Number\":\"9886662222\",\"Address\":\"payee_address@123\",\"Mail_Id\":\"deepak.h@gmail.com\"},\"Transaction_Status\":\"Completed\",\"isUPITransaction\":true,\"Sender_Source\":\"Remitter\",\"Recipient_Destination\":\"Benificiary\"}";
             
             given()
-            .contentType(ContentType.JSON)
-            .body(reqBody)
+            	.contentType(ContentType.JSON)
+            	.body(reqBody)
             .when()
-            .post("http://49.249.29.5:8091/add-transaction")
+            	.post("http://49.249.29.5:8091/add-transaction")
             .then()
-            .log()
-            .all();
+            	.log().all();
         }
     }
 
