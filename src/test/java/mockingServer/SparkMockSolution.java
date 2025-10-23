@@ -12,7 +12,7 @@ public class SparkMockSolution {
 		Spark.post("/credit-card", (req,res)->{
 			String response="";
 			String card = JsonPath.read(req.body().toString(), "$.creditcard");
-			if(StringUtils.equalsAny(card, "123456789123","123456789124")) {
+			if(StringUtils.equalsAny(card, "123456789123","123456789124","123456789125","123456789126","123456789127")) {
 				response = "{\"status\" : \" Payment Success\"}";
 				res.status(200);
 			}else {
