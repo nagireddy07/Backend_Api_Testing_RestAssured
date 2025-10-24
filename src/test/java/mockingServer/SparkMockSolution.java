@@ -6,7 +6,6 @@ import spark.Spark;
 import org.apache.commons.lang3.StringUtils;
 
 public class SparkMockSolution {
-	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		Spark.port(8989);
 		Spark.post("/credit-card", (req,res)->{
