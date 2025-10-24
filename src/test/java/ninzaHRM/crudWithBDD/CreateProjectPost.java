@@ -10,6 +10,7 @@ import io.restassured.http.ContentType;
 
 
 public class CreateProjectPost {
+	@SuppressWarnings("unchecked")
 	@Test
 	public void PostProject() {
 		

@@ -1,10 +1,12 @@
 package javaFaker;
 
+import java.util.Random;
+
 import com.github.javafaker.Faker;
 
 public class FakerExample {
     public static void main(String[] args) {
-        Faker faker = new Faker();
+        Faker faker = new Faker(new Random(1200));
 
         String name = faker.name().fullName();
         String email = faker.internet().emailAddress();
