@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-23T14:29:54 IST" name="Default suite" finished-at="2025-10-23T14:29:54 IST" duration-ms="136">
+  <suite started-at="2025-10-23T16:43:01 IST" name="Default suite" finished-at="2025-10-23T16:43:03 IST" duration-ms="2800">
     <groups>
     </groups>
-    <test started-at="2025-10-23T14:29:54 IST" name="Default test" finished-at="2025-10-23T14:29:54 IST" duration-ms="136">
-      <class name="encryption.SampleEncryptionDecryption">
-        <test-method signature="encrypt()[pri:0, instance:encryption.SampleEncryptionDecryption@77c2494c]" started-at="2025-10-23T14:29:54 IST" name="encrypt" finished-at="2025-10-23T14:29:54 IST" duration-ms="83" status="PASS">
+    <test started-at="2025-10-23T16:43:01 IST" name="Default test" finished-at="2025-10-23T16:43:03 IST" duration-ms="2800">
+      <class name="ninzaHRM.crudWithBDD.CreateProjectPost">
+        <test-method signature="PostProject()[pri:0, instance:ninzaHRM.crudWithBDD.CreateProjectPost@662ac478]" started-at="2025-10-23T16:43:01 IST" name="PostProject" finished-at="2025-10-23T16:43:03 IST" duration-ms="2760" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- encrypt -->
-        <test-method signature="decrypt()[pri:0, instance:encryption.SampleEncryptionDecryption@77c2494c]" started-at="2025-10-23T14:29:54 IST" name="decrypt" finished-at="2025-10-23T14:29:54 IST" depends-on-methods="encryption.SampleEncryptionDecryption.encrypt" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- decrypt -->
-      </class> <!-- encryption.SampleEncryptionDecryption -->
+        </test-method> <!-- PostProject -->
+      </class> <!-- ninzaHRM.crudWithBDD.CreateProjectPost -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
