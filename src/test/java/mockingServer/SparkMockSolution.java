@@ -1,7 +1,6 @@
 package mockingServer;
 
 import com.jayway.jsonpath.JsonPath;
-
 import spark.Spark;
 import org.apache.commons.lang3.StringUtils;
 
