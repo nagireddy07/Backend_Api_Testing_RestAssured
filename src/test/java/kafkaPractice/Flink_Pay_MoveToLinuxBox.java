@@ -10,8 +10,8 @@ public class Flink_Pay_MoveToLinuxBox {
         String host = "49.249.29.5";  // Linux box IP
         int port = 22;                // SSH port (default 22)
         String password = "@coe$rv!@#";  // or use private key
-        String localFile = "C:\\Users\\User\\Downloads\\Nagireddy\\Challenges\\JavaTxn1.txt";
-        String remoteDir = "/home/chidori/Flink_Pay/swift_files/";
+        String localFile = "C:\\Users\\User\\Downloads\\Nagireddy\\Challenges\\JsonFlinkPay.txt";
+        String remoteDir = "/home/chidori/Flink_Pay/kafka/";
 
         Session session = null;
         Channel channel = null;

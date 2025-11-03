@@ -9,7 +9,7 @@ public class Flink_Pay_PushToKafka {
         String host = "49.249.29.5";
         int port = 22;
         String password = "@coe$rv!@#";
-        String command = "./Flink_Pay/kafka/bin/pushTxn_swift.sh /home/chidori/Flink_Pay/swift_files/JavaTxn1.txtfile.json";
+        String command = "./Flink_Pay/kafka/bin/pushTxn.sh /home/chidori/Flink_Pay/swift_files/JsonFlinkPay.txt";
 
         try {
             JSch jsch = new JSch();

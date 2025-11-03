@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="encryption.SampleEncryptionDecryption">
+      <class name="nimbblAggregator.NimbblE2E">
         <methods>
-          <include name="encrypt"/>
-          <include name="decrypt"/>
+          <include name="webHookTest"/>
         </methods>
-      </class> <!-- encryption.SampleEncryptionDecryption -->
+      </class> <!-- nimbblAggregator.NimbblE2E -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
