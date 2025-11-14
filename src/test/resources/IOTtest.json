@@ -1,0 +1,6 @@
+{
+	"temperature":"temp_var",
+	"healthIndex":"health_var",
+	"criticalityIndex":"critical_var"
+	
+}

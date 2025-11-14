@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="nimbblAggregator.NimbblE2E">
+      <class name="systemIntegration.ERP_Testing_E2E">
         <methods>
-          <include name="webHookTest"/>
+          <include name="startEmulatorAndServer"/>
+          <include name="stopEmulatorAndServer"/>
+          <include name="logisticMobile"/>
         </methods>
-      </class> <!-- nimbblAggregator.NimbblE2E -->
+      </class> <!-- systemIntegration.ERP_Testing_E2E -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
