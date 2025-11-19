@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-13T16:45:55 IST" name="Default suite" finished-at="2025-11-13T16:46:56 IST" duration-ms="60467">
+  <suite started-at="2025-11-16T13:47:38 IST" name="Default suite" finished-at="2025-11-16T13:49:00 IST" duration-ms="81989">
     <groups>
     </groups>
-    <test started-at="2025-11-13T16:45:55 IST" name="Default test" finished-at="2025-11-13T16:46:56 IST" duration-ms="60467">
+    <test started-at="2025-11-16T13:47:38 IST" name="Default test" finished-at="2025-11-16T13:49:00 IST" duration-ms="81989">
       <class name="systemIntegration.ERP_Testing_E2E">
-        <test-method is-config="true" signature="startEmulatorAndServer()[pri:0, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-13T16:45:10 IST" name="startEmulatorAndServer" finished-at="2025-11-13T16:45:55 IST" duration-ms="45829" status="PASS">
+        <test-method is-config="true" signature="startEmulatorAndServer()[pri:0, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-16T13:46:50 IST" name="startEmulatorAndServer" finished-at="2025-11-16T13:47:38 IST" duration-ms="48068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startEmulatorAndServer -->
-        <test-method signature="inventory()[pri:1, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-13T16:45:55 IST" name="inventory" finished-at="2025-11-13T16:46:07 IST" duration-ms="11965" status="PASS">
+        <test-method signature="inventory()[pri:1, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-16T13:47:38 IST" name="inventory" finished-at="2025-11-16T13:47:52 IST" duration-ms="14147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inventory -->
-        <test-method signature="crm()[pri:2, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-13T16:46:07 IST" name="crm" finished-at="2025-11-13T16:46:12 IST" duration-ms="4278" status="PASS">
+        <test-method signature="crm()[pri:2, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-16T13:47:52 IST" name="crm" finished-at="2025-11-16T13:47:57 IST" duration-ms="4720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crm -->
-        <test-method signature="brm()[pri:3, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-13T16:46:12 IST" name="brm" finished-at="2025-11-13T16:46:42 IST" duration-ms="30706" status="PASS">
+        <test-method signature="brm()[pri:3, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-16T13:47:57 IST" name="brm" finished-at="2025-11-16T13:48:44 IST" duration-ms="47211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brm -->
-        <test-method signature="logisticMobile()[pri:4, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-13T16:46:42 IST" name="logisticMobile" finished-at="2025-11-13T16:46:56 IST" duration-ms="13427" status="PASS">
+        <test-method signature="logisticMobile()[pri:4, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-16T13:48:44 IST" name="logisticMobile" finished-at="2025-11-16T13:49:00 IST" duration-ms="15812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logisticMobile -->
-        <test-method is-config="true" signature="stopEmulatorAndServer()[pri:0, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-13T16:46:56 IST" name="stopEmulatorAndServer" finished-at="2025-11-13T16:46:56 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="stopEmulatorAndServer()[pri:0, instance:systemIntegration.ERP_Testing_E2E@4fad94a7]" started-at="2025-11-16T13:49:00 IST" name="stopEmulatorAndServer" finished-at="2025-11-16T13:49:00 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopEmulatorAndServer -->
